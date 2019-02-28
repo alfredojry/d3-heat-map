@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: arial;
+  text-align: center;
+}
+
+h3 {
+  font-family: arial;
+  text-align: center;
+}
+
+#svg-container {
+  display: block;
+  margin: auto;
+}
+
+svg {
+  border: 1px solid #010101;
+}
+
+.div-tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  padding: 2px;
+  font: 12px arial;
+  background-color: #29aa47;
+  pointer-events: none;
+  border-radius: 5%;
+}
+
+.cell:hover {
+  stroke: black;
+  stroke-width: 2px;
+}
